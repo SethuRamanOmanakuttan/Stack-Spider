@@ -1,0 +1,2 @@
+gspread==5.4.0
+Scrapy==2.6.1
