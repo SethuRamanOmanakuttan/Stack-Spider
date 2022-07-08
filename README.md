@@ -28,11 +28,11 @@ pip install -r requirements.txt
 
 To run the crawler, go to the stackSpider folder , open the terminal and execute the following command : 
 ```
-$ scrapy crawl getQuestionSpider
+$ scrapy crawl stackSpider
 ```
 
 You can even write the data to a json file using the follwoing command :
 ```
-$ scrapy crawl getQuestionSpider -O <json-file-name>
+$ scrapy crawl stackSpider -O <json-file-name>
 
 ```

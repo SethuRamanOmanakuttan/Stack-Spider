@@ -16,8 +16,10 @@ ROBOTSTXT_OBEY = True
 
 #pipeline
 ITEM_PIPELINES = {
-   'stackSpider.pipelines.StackspiderPipeline': 300,
+   'stackSpider.pipelines.stackSpiderPipeline': 300,
 }
+
+# GLOBAL VARIABLES
 
 #number of pages to crawl
 MAX_PAGE_TO_CRAWL = 50
@@ -29,7 +31,7 @@ BASE_URL = "https://ethereum.stackexchange.com"
 START_URL = "https://ethereum.stackexchange.com/questions?tab=newest&page=1"
 
 #location of google_credential.json file
-GOOGLE_CREDENTIAL_LOCATION = "<location-google-credential-file.json>"
+GOOGLE_CREDENTIAL_LOCATION = "<GOOGLE_CREDENTIAL_LOCATION>"
 
 #name of the spreadsheet
-GOOGLE_SPREADSHEET_NAME = "<google-sheet-name>"
+GOOGLE_SPREADSHEET_NAME = "<GOOGLE_SPREADSHEET_NAME>"
